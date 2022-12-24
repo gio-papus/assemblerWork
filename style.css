@@ -1,0 +1,26 @@
+body{
+    
+    background-color: rgb(195, 192, 188);
+    
+}
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.border{
+    background-color: rgb(233, 236, 236);
+    height: 200px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    }
+.error{
+    color: red;
+}
